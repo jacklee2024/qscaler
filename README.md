@@ -24,7 +24,7 @@ The `main` function:
 
 ## Usage
 ``` 
-cargo run -- --max_num_process=3 --min_num_process=1 --queue_url=https://sqs.ca-central-1.amazonaws.com/XXXXXX/test.fifo --scale_factor=3 --supervisor_config_path=/home/ubuntu/environment/dcm/srv/bean/qscaler/example/sample.conf
+cargo run -- --max_num_process=3 --min_num_process=1 --queue_url=https://sqs.ca-central-1.amazonaws.com/XXXXXX/test.fifo --scale_factor=3 --supervisor_config_path=/home/ubuntu/environment/qscaler/example/sample.conf
 
 # cargo run ${SCALE_FACTOR} ${MIN_NUM_PROCS} ${MAX_NUM_PROCS} ${PROCESS_CONFIG_PATH} ${SQS_URL}
 ```
