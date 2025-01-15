@@ -1,0 +1,11 @@
+[package]
+name = "qscaler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.33.1"
+aws-config = "1.5.13"
+aws-sdk-sqs = "1.53.0"
+tokio = { version = "1.43.0", features = ["full"] }
+clap = { version = "4.5.26", features = ["derive"] }
